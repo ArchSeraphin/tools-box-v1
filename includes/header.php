@@ -12,8 +12,13 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0000FF', // Bleu pur requested
-                        secondary: '#0f172a', // Slate 900
+                        primary: '#4f46e5', // Indigo 600 - Modern, vibrant, professional
+                        secondary: '#0f172a', // Slate 900 - Deep, rich background
+                        accent: '#ec4899', // Pink 500 - For subtle highlights if needed
+                        surface: '#f8fafc', // Slate 50 - Clean background
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
                     }
                 }
             }
